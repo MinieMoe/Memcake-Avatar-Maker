@@ -12,7 +12,7 @@ All SVG presets are drawn by hand in Procreate + InkScape 👩‍🎨
 
 ## Screenshots
 
-> *(Coming soon — add character builder + 3D view screenshots here)*
+https://github.com/user-attachments/assets/7171fe4d-0208-4b1a-97a0-4c8d6c95c6b0
 
 ---
 
