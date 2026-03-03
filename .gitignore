@@ -30,14 +30,57 @@ yarn-error.*
 .DS_Store
 *.pem
 
-# local env files
-.env*.local
+# ─── Secrets & API Keys ───────────────────────────────────────────────────────
+# All .env variants (local, production, staging, etc.)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
 
-# typescript
+# Google Services / Firebase
+google-services.json
+GoogleService-Info.plist
+firebase-adminsdk*.json
+
+# AWS / Cloud credentials
+.aws/
+credentials
+*.credentials
+
+# Private keys & certificates
+*.key
+*.p8
+*.p12
+*.pem
+*.cert
+*.cer
+*.pfx
+*.crt
+
+# Apple / iOS signing
+*.mobileprovision
+*.provisionprofile
+AuthKey_*.p8
+
+# Generic secrets files
+secrets.json
+secrets.yaml
+secrets.yml
+secrets.ts
+secrets.js
+*secret*
+*secrets*
+*apikey*
+*api_key*
+*api-key*
+
+# ─── TypeScript ───────────────────────────────────────────────────────────────
 *.tsbuildinfo
 
+# ─── Misc ─────────────────────────────────────────────────────────────────────
 app-example
 
-# generated native folders
+# Generated native folders
 /ios
 /android
